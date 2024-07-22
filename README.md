@@ -1,1 +1,1 @@
-# odin-recipes
+This is a simple project in web development. I will design a web page about some recipes.
