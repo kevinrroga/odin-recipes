@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header {
+    background-color: #1c1e26;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding: 50px;
+    background-color: #1c1e26;
+    color: white;
+    align-items: center;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+.sign-up-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder {
+    width: 300px;
+    height: 200px;
+    background-color: #666;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-section {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.info-card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card-placeholder{
+    width: 100%;
+    padding-top: 100%;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.info-cards p{
+    margin-top: 10px;
+}
+
+.quote-section {
+    background-color: #d9d9d9;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.thor{
+    display:flex;
+    color: rgb(93, 66, 66);
+    padding: 20px;
+    text-align:end;
+}
+
+.cta-section {
+    background-color: #3b82f6;
+    color: white;
+    padding: 50px 20px;
+}
+
+.cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn-light {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.footer {
+    background-color: #1c1e26;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
